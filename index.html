@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Profil Page</title>
+    <!-- CSS LINK -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- W3SCHOOLS LINK -->
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <!-- BOOTSTRAP LINK -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+    </script>
+    <script src="https://kit.fontawesome.com/3c69dc53a8.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- HEADER START -->
+    <header>
+        <nav class="navbar" id="navbar">
+            <a href="./index.html" class="menu-left">Profile Page</a>
+            <div class="menu-right">
+                <a href="#about" class="menu-item">About</a>
+                <a href="#skills" class="menu-item">Skills</a>
+                <a href="#experiences" class="menu-item">Experiences</a>
+                <a href="#education" class="menu-item">Education</a>
+            </div>
+        </nav>
+        <div class="profil-foto">
+            <img src="./profil_foto/profil_foto.jpg" alt="profil_foto">
+            <h1>Ufuk Özkar</h1>
+            <div class="social-media">
+                <a class="social-media-items" href="https://github.com/ufuk2606"><i class="fa-brands fa-github"></i></a>
+                <a class="social-media-items" href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                <a class="social-media-items" href="https://www.instagram.com/"><i
+                        class="fa-brands fa-instagram"></i></a>
+                <a class="social-media-items" href="https://twitter.com/"><i class="fa-brands fa-twitter"></i></a>
+            </div>
+        </div>
+    </header>
+    <!-- HEADER END -->
+    <!-- MAIN START -->
+    <main>
+        <article class="about-info" id="about">
+            <div class="about">About</div>
+            <div class="about-details">
+                <div class="about-details-title">
+                    <div class="about-details-items">AGE:</div>
+                    <div class="about-details-items">EMAIL:</div>
+                    <div class="about-details-items">PHONE:</div>
+                    <div class="about-details-items">ADDRESS:</div>
+                    <div class="about-details-items">LANGUAGE:</div>
+                </div>
+                <div class="about-details-explanation">
+                    <div class="about-details-explanation-items">31</div>
+                    <div class="about-details-explanation-items">ufukozkar11@gmail.com</div>
+                    <div class="about-details-explanation-items">077 924 9734</div>
+                    <div class="about-details-explanation-items">Waldeggstrasse 3 , 9320 Arbon </div>
+                    <div class="about-details-explanation-items">Turkisch, German, English</div>
+                </div>
+            </div>
+            <div class="about-details-summary">
+                <details>
+                    <summary class="about-details-items">AGE</summary>
+                    <p class="about-details-explanation-items ">31</p>
+                </details>
+                <details>
+                    <summary class="about-details-items">EMAIL</summary>
+                    <p class="about-details-explanation-items">ufukozkar11@gmail.com</p>
+                </details>
+                <details>
+                    <summary class="about-details-items">PHONE</summary>
+                    <p class="about-details-explanation-items">077 924 9734</p>
+                </details>
+                <details>
+                    <summary class="about-details-items">ADDRESS</summary>
+                    <p class="about-details-explanation-items">Waldeggstrasse 3 , 9320 Arbon</p>
+                </details>
+                <details>
+                    <summary class="about-details-items">LANGUAGE</summary>
+                    <p class="about-details-explanation-items">Turkisch, German, English</p>
+                </details>
+            </div>
+        </article>
+        <section class="skills-container about-info" id="skills">
+            <div class="skills about">Skills</div>
+            <div class="skils-details">
+                <div class="skills-items about-details-explanation-items">
+                    HTML
+                    <div class="w3-light-grey w3-round-xlarge">
+                        <div class="w3-container w3-green w3-round-large" style="width:90%">90%</div>
+                    </div>
+                </div>
+                <div class="skills-items about-details-explanation-items">
+                    CSS
+                    <div class="w3-light-grey w3-round-xlarge">
+                        <div class="w3-container w3-green w3-round-large" style="width:80%">80%</div>
+                    </div>
+                </div>
+                <div class="skills-items about-details-explanation-items">
+                    JAVASCRIPT
+                    <div class="w3-light-grey w3-round-xlarge">
+                        <div class="w3-container w3-green w3-round-large" style="width:40%">40%</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="experiences-container" id="experiences">
+            <div class="experiences-title about">Experiences</div>
+            <div class="accordion" id="accordionPanelsStayOpenExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+                            aria-controls="panelsStayOpen-collapseOne">
+                            Computer Education teacher
+                        </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show"
+                        aria-labelledby="panelsStayOpen-headingOne">
+                        <div class="accordion-body">
+                            <strong>High School Necip Fazil Kisakurek, Ankara</strong>
+                            Computer training (beginners to advanced) for high school students
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseTwo">
+                            Teacher for computer education, Internship
+                        </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse"
+                        aria-labelledby="panelsStayOpen-headingTwo">
+                        <div class="accordion-body">
+                            <strong>Kizilay Namik Kemal Secondary School, Ankara</strong>
+                            Computer training (beginners) for secondary school students
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseThree">
+                            Teacher for computer education, Internship
+                        </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse"
+                        aria-labelledby="panelsStayOpen-headingThree">
+                        <div class="accordion-body">
+                            <strong>Türkiye Noterler Birligi Secondary School, Ankara</strong>
+                            Computer training (beginners) for secondary school students
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="education-container" id="education">
+            <div class="education-container-title about">Education</div>
+            <div class="flip-card-container">
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front ek">
+                            <img src="https://www.freelogovectors.net/svg06/hacettepe-universitesi-logo.svg">
+                        </div>
+                        <div class="flip-card-back">
+                            <p>Bachelor of Science, Computer Education and Instructional Technology
+                                Teaching, Hacettepe University, Ankara</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front ek">
+                            <img
+                                src="https://seekvectorlogo.com/wp-content/uploads/2022/02/coursera-vector-logo-2022.png">
+                        </div>
+                        <div class="flip-card-back">
+                            <div class="flip-card-back-item">University of Michigan</div>
+                            <div class="flip-card-back-item">CSS3 </div>
+                            <div class="flip-card-back-item">Responsive Design </div>
+                            <div class="flip-card-back-item">HTML5 </div>
+                            <div class="flip-card-back-item">Javascript </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front ek1">
+                            <img src="https://hicoders.ch/wp-content/uploads/2021/11/hiCoders-Vector25-1-Copy.png">
+                        </div>
+                        <div class="flip-card-back">
+                            <p>Fullstack Web Programming</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="language-container">
+            <div class="language-container-title about">Language</div>
+            <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <h1>Turkish <span>&#128073;&#127996;</span>mother tongue</h1>
+                    </div>
+                    <div class="carousel-item">
+                        <h1>German <span>&#128073;&#127996;</span>B1</h1>
+                    </div>
+                    <div class="carousel-item">
+                        <h1>English <span>&#128073;&#127996;</span> A2</h1>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+    </main>
+    <!-- MAIN END -->
+    <!-- FOOTER START -->
+    <footer>
+        <h1>Ufuk Özkar</h1>
+        <p>© Creative CV. All rights reserved.</p>
+    </footer>
+    <!-- FOOTER END -->
+</body>
+
+</html>
